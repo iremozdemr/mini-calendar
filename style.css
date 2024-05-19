@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: slateblue;
+    height: 100vh;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.white{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+}
+
+.month{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    width: 300px;
+    height: 60px;
+
+    overflow: hidden;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: white;
+    background-color: orangered;
+}
+
+.day-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number{
+    margin-bottom: 40px;
+    font-size: 70px;
+    color: black;
+
+    font-weight: bold;
+}
+
+.year{
+    font-size: 20px;
+    color: darkgray;
+
+    font-weight: 500;
+}
